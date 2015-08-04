@@ -1,0 +1,25 @@
+{
+  "name": "Wolfkit",
+  "version": "1.0.0",
+  "description": "A simple and lightweight CSS framework",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://themimitoof@github.com/Themimitoof/Wolfkit.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "lightweight"
+  ],
+  "author": "Themimitoof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Themimitoof/Wolfkit/issues"
+  },
+  "homepage": "https://github.com/Themimitoof/Wolfkit",
+  "dependencies": {
+    "gulp": "~3.9.0",
+    "gulp-minify-css": "~1.2.0"
+  }
+}
