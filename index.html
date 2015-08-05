@@ -3,7 +3,7 @@
 <head>
 	<title>Wolfkit &mdash; A simple and lightweight CSS Framework</title>
 	<meta charset="utf-8" />
-	<link rel="stylesheet" type="text/css" href="assets/css/wolfkit.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/wolfkit.css">
 	<style type="text/css">
 		.header {
 			background: url('assets/img/header_bg.png') no-repeat;
@@ -75,9 +75,45 @@
 		.footer p {
 			margin:5px;
 		}
+
+
+		.menu-open {
+			position: fixed;
+			width: 40%;
+			height: 100%;
+			top:0;
+			right:0;
+			background-color: #000;
+			color:#fff;
+			overflow: background-color:#A29797;
+
+			padding: 1em 3em;
+		}
 	</style>	
 </head>
 <body>
+	<div class="navbar">
+		<div class="container">
+			<ul>
+				<li class="title">Wolfkit</li>
+				<li><a href="">Home</a></li>
+				<li><a href="">Get Started</a></li>
+				<li><a href="">Components</a></li>
+			</ul>
+			<ul class="pull-right">
+				<li><a href="">Test</a></li>
+				<li><a href="">Test</a></li>
+				<li><a href="">Test</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="menu-open">
+		<p>Title</p>
+		<ul>
+			<li>a</li>
+			<li>b</li>
+		</ul>
+	</div>
 	<div class="header">
 		<h1>Wolfkit &mdash; A simple and lightweight CSS Framework</h1>
 		<a class="btn default" href="">Show Github page</a> <a class="btn info">Share on Twitter</a> <a class="btn primary">Share on Facebook</a>
