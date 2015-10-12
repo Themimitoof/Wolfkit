@@ -1,7 +1,7 @@
 /*
 	Wolfkit : Simple CSS Framework
 	https://github.com/themimitoof/Wolfkit
-	Version: 1.0 2015-06-26
+	Version: 1.0 2015-10-12
 */
 
 html, body {
@@ -75,8 +75,6 @@ html, body {
 .grid-sm-1,.grid-sm-2,.grid-sm-3,.grid-sm-4,.grid-sm-5,.grid-sm-6,.grid-sm-7,.grid-sm-8,.grid-sm-9,.grid-sm-10,.grid-sm-11,.grid-sm-12 {
 	display: inline-block;
 	min-height: 1px;
-	padding-left: 15px;
-	padding-right: 15px;
 	float:left;
 }
 
