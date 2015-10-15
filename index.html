@@ -3,6 +3,7 @@
 <head>
 	<title>Wolfkit &mdash; A simple and lightweight CSS Framework</title>
 	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="assets/css/wolfkit.css">
 	<style type="text/css">
 		.header {
@@ -76,18 +77,16 @@
 			margin:5px;
 		}
 
-
-		.menu-open {
-			position: fixed;
-			width: 40%;
-			height: 100%;
-			top:0;
-			right:0;
-			background-color: #000;
-			color:#fff;
-			overflow: background-color:#A29797;
-
-			padding: 1em 3em;
+		.alert {
+			width: 90%;
+			margin-left: auto;
+			margin-right: auto;
+			background-color: #FFBD3E;
+			border-radius: 5px;
+			padding: 10px;
+			margin-top: 10px;
+			color: white;
+			font-size: 15px;
 		}
 	</style>	
 </head>
@@ -96,31 +95,25 @@
 		<div class="container">
 			<ul>
 				<li class="title">Wolfkit</li>
-				<li><a href="">Home</a></li>
-				<li><a href="">Get Started</a></li>
-				<li><a href="">Components</a></li>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Get Started</a></li>
+				<li><a href="#">Components</a></li>
 			</ul>
 			<ul class="pull-right">
-				<li><a href="">Test</a></li>
-				<li><a href="">Test</a></li>
-				<li><a href="">Test</a></li>
+				<li><a href="#footer">Contact</a></li>
 			</ul>
 		</div>
 	</div>
-	<div class="menu-open">
-		<p>Title</p>
-		<ul>
-			<li>a</li>
-			<li>b</li>
-		</ul>
-	</div>
 	<div class="header">
 		<h1>Wolfkit &mdash; A simple and lightweight CSS Framework</h1>
-		<a class="btn default" href="">Show Github page</a> <a class="btn info">Share on Twitter</a> <a class="btn primary">Share on Facebook</a>
-		<p><a href="">Download Wolfkit</a> &middot; <span class="small">Actual version: 1.0 &middot; Wolfkit size: 6.99Kb (minified: 5,43Kb)</span></p>
+		<a class="btn default" href="https://github.com/Themimitoof/Wolfkit">Show Github page</a> <a class="btn info">Share on Twitter</a> <a class="btn primary">Share on Facebook</a>
+		<p><a href="https://github.com/Themimitoof/Wolfkit">Download Wolfkit</a> &middot; <span class="small">Actual version: 1.0.1 &middot; Wolfkit size: 7.56KB (minified: 5,87KB)</span></p>
 	</div>
 
 	<div class="container content">
+		<div class="alert">
+			<b>Attention: </b> Cette page n'est pas à jour. Elle possède presque tous les éléments de Wolfkit mais n'a pas été révisé depuis les dernières modifications.
+		</div>
 		<h2>Grid system</h2>
 		<p>Wolfkit propose un système de grille simple et responsive permettant ainsi de concevoir des pages s'adaptant à tout type de résolution. La grille de Wolfkit est constitué de 12 éléments et de deux type de grille différent. </p>
 
@@ -217,7 +210,7 @@
 			}
 		</div>
 	</div>
-	<div class="footer">
+	<div class="footer" id="footer">
 		<h1>Wolfkit</h1>
 		<div class="container">
 			<div class="grid-sm-3">
