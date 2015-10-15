@@ -1,8 +1,15 @@
 /*
-	Wolfkit : Simple CSS Framework
+	Wolfkit : Simple and lightweight CSS Framework built with love <3
 	https://github.com/themimitoof/Wolfkit
-	Version: 1.0 2015-10-12
+	Version: 1.0.1 2015-10-15
+	Author: Themimitoof
 */
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
 
 html, body {
 	margin: 0;
