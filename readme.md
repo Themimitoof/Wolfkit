@@ -24,6 +24,9 @@ gulp
 
 And you will find the minified CSS on ``dist``folder.
 
+## Wolfkit Culpeo
+__Good News:__ Wolfkit Culpeo, additional CSS kit is coming soon! With Wolfkit Culpeo, get more elements for yours web projects (buttons, panel, colors, tabs, ...). Finally, the Wolfkit Core will be more lightweight with the release of Wolfkit Culpeo! 
+
 
 
 ## Contact
