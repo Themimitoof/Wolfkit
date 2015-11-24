@@ -259,17 +259,17 @@ a.btn, button.btn,[role="button"].btn {
 	color: #fff;
 }
 
-.btn.large {
+.btn.large, .btn-flat.large {
 	padding: 12px 20px;
 	font-size: 18px;
 }
 
-.btn.medium {
+.btn.medium, .btn-flat.medium {
 	padding: 8px 15px;
 	font-size: 16px;
 }
 
-.btn.small {
+.btn.small, .btn-flat.small {
 	padding: 2px 5px;
 	font-size: 12px;
 }
